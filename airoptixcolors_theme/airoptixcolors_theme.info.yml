@@ -1,0 +1,9 @@
+name: Airoptix Colors Theme
+type: theme
+description: 'Theme generated for Airoptix Colors by Maxxhub'
+package: Maxxhub
+core: 8.x
+libraries:
+  - airoptixcolors_theme/global-styling
+ 
+base theme: false

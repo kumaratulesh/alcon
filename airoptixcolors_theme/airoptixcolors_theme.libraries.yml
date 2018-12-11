@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      css/normalize.css: {}
+      css/styles.css: {}
+      css/simple-slider.css: {}
+      css/styles-globalTH.css: {}
+      css/styles-globalTH-mobile.css: {}
+  js:
+    js/main.js: {}

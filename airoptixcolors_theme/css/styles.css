@@ -505,7 +505,7 @@
 	.about .wearing-contactlenses-column{float:left;padding-bottom:10px;padding-right:30px;padding-left:5px;width:25%;}
 	.about .wearing-contactlenses-column h2{font-size:26px;letter-spacing:2px;}
 	.about .wearing-contactlenses-column h2 .content{color:#000;padding-bottom:18px;text-shadow:none;width:175px;font-family:FuturaMedium;padding-top:2px;float:left;}
-	.about .wearing-contactlenses-column ul{list-style:disc;margin-left:1.5em;px;}
+	.about .wearing-contactlenses-column ul{list-style:disc;margin-left:1.5em;}
 	.about .wearing-contactlenses-column ul li{margin-bottom:1em;}
 	.about .wearing-contactlenses-column h2 .numaric{color:#000;float:left;font-size:75px;list-style:decimal inside none;font-family:FloodStd;padding-right:7px;position:relative;top:15px;}
 	
@@ -887,6 +887,4 @@ Mobile & Tablet Design
  }
 @media screen and (min-width : 601px) and (max-width : 767px)  
 {
-
-
-
+}

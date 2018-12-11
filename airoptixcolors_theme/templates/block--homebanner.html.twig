@@ -1,11 +1,11 @@
-<div class="{{ css }}" style="border: none;"><div class="page" id="home" style="border: none; background-image: url(&quot;{{ file_url(bgimage) }}&quot;);">
-				<img src="{{ file_url(left) }}"/>
+<div class="{{ css }}" style="border: none;"><div class="page" id="home" style="border: none; background-image: url(&quot;{{ file_url(content.field_bgimage['#items'].entity.uri.value) }}&quot;);">
+        <div class="home-model-main">{{ content.field_left }}</div>
                 <div class="page-wrap" style="border: none;">
                     <!-- # content -->
                     <div class="content" style="border: none;">
-					    <h1 class="title" style="border: none;"><img src="{{ file_url(top) }}"/></h1>
+					    <h1 class="title" style="border: none;">{{ content.field_top }}</h1>
                         <!--<p class="new_sub_head">Enhance any eye color with the most breathable<sup>*</sup> color contact lenses available<sup>1</sup></p>-->
-						<p class="gemstones" style="border: none;"><img src="{{ file_url(bottom) }}"/></p>
+						<div class="gemstones" style="border: none;">{{ content.field_bottom }}</div>
 						<div class="links-section" style="border: none;">
 							<p class="button" style="border: none;"><a href="https://www.airoptix.com/colors/color-studio.shtml">Play with all 12 colors <span class="but-rightwhitearrow" style="border: none;"></span></a></p>
 							<p class="link" style="border: none;"><a a="" href="https://www.airoptix.com/colors/contact-lens-free-trial.shtml">Try a free<sup>†</sup> in-office trial <span class="but-rightbrownarrow" style="border: none;"></span></a></p>

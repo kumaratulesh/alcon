@@ -191,11 +191,11 @@
 	.header-main{position:fixed;left:0;top:43px;width:100%;z-index:9999}
 	#con-glblalc{width:76% !important}
 	.header{height:64px;background:url(../images/header-desktop-menu-bg.jpg) center top no-repeat;background-size:100%}
-	.header .container .logo-wrap{position:absolute;z-index:1000;left:0;top:0}
-	.header .container .logo-wrap .logo{display:block}
-	.header .container .logo-wrap .logo img{width:220px;height:auto;margin-top:0;margin-left:-5px}
-	.header .container .logo-wrap .menu-btn{display:none}
-	.header .container nav{padding-left:190px;margin:0 auto; float:right;}
+	.header .container #block-airoptixcolors-theme-branding{position:absolute;z-index:1000;left:0;top:0}
+	.header .container #block-airoptixcolors-theme-branding {display:block}
+	.header .container #block-airoptixcolors-theme-branding img{width:220px;height:auto;margin-top:0;margin-left:-5px}
+	.header .container #block-airoptixcolors-theme-branding .menu-btn{display:none}
+	.header .container nav{padding-left:190px;margin:0 auto}
 	.header .container nav ul{margin:0;margin-left:57px}
 	.header .container nav ul li{float:left;height:64px;line-height:64px;line-height:normal;font-weight:700;text-align:center;position:relative}
 	.header .container nav ul li.mobi-item{display:none}
@@ -687,12 +687,12 @@ Mobile & Tablet Design
 	.header .container nav ul li a span{float:none;text-align:left;}
 	.header .container nav ul li.ecp-link,
 	.header .container nav ul li.free-trial{border-bottom:none;}
-	.header .container .logo-wrap{position: relative; float: left; width: 100%; height: 40px;}
-	.header .container .logo-wrap .logo{position:absolute;left:0;top:0;width:130px;}
-	.header .container .logo-wrap .logo img{width:100%;margin:0 10px;}
-	.header .container .logo-wrap .menu-btn{display:block;float:right;color:#d2ac67;cursor:pointer;margin-top:10px;}
-	.header .container .logo-wrap .menu-btn .arrow{display:block;float:right;width:25px;height:25px; background: url(../images/menuwhitedownarrow.png) no-repeat center 5px; background-size:15px auto;}
-	.header-active .container .logo-wrap .menu-btn .arrow{background: url(../images/menuselectuparrow.png) no-repeat center 5px; background-size:15px auto;}
+	.header .container #block-airoptixcolors-theme-branding{position: relative; float: left; width: 100%; height: 40px;}
+	.header .container #block-airoptixcolors-theme-branding {position:absolute;left:0;top:0;width:130px;}
+	.header .container #block-airoptixcolors-theme-branding img{width:100%;margin:0 10px;}
+	.header .container #block-airoptixcolors-theme-branding .menu-btn{display:block;float:right;color:#d2ac67;cursor:pointer;margin-top:10px;}
+	.header .container #block-airoptixcolors-theme-branding .menu-btn .arrow{display:block;float:right;width:25px;height:25px; background: url(../images/menuwhitedownarrow.png) no-repeat center 5px; background-size:15px auto;}
+	.header-active .container #block-airoptixcolors-theme-branding .menu-btn .arrow{background: url(../images/menuselectuparrow.png) no-repeat center 5px; background-size:15px auto;}
 	/* footer */
 	.footer-content{width:auto;margin:15px;margin-top:0;box-sizing:border-box;}
 	.footer-content .footer-alpha,

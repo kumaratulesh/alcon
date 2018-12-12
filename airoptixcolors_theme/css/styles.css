@@ -893,3 +893,22 @@ Mobile & Tablet Design
 .tr_right {
     text-align: right;
 }
+
+.search-block-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10000000;
+}
+
+.search-block-form input.form-search {
+    font-size: 13px;
+    padding: 10px 12px;
+    border: solid 1px #dadada;
+    margin: 10px 0 0;
+    min-width: 200px;
+}
+
+.search-block-form .form-submit {
+    display:none;
+}

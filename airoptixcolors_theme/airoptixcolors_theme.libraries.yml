@@ -7,4 +7,6 @@ global-styling:
       css/styles-globalTH.css: {}
       css/styles-globalTH-mobile.css: {}
   js:
-    js/main.js: {}
+    js/jquery-migrate-git.js: {}
+    js/jquery.tools.min.js: {}
+    js/main.js: {}    

@@ -1,6 +1,6 @@
 (function($) {
 $('.accordion > dd').hide();$('.accordion > dt.expanded').next().show();$('.accordion > dt').click(function()
-{ga_trackEvent('ao_faq_click','Clicks','ao_faq_click_all');$(this).next().slideToggle();if($(this).hasClass('expanded'))
+{$(this).next().slideToggle();if($(this).hasClass('expanded'))
 {$(this).addClass('collapsed').removeClass('expanded');}
 else
 {$(this).addClass('expanded').removeClass('collapsed');}

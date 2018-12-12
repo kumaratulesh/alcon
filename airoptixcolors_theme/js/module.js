@@ -1,3 +1,4 @@
+(function($) {
 $(function()
 {(function($)
 {$('.accordion > dd').hide();$('.accordion > dt.expanded').next().show();$('.accordion > dt').click(function()
@@ -11,3 +12,4 @@ moveHomeCon();$(window).resize(function(){moveHomeCon();});function youTubeResiz
 vidHeight=vidHeight-340;else
 vidHeight=vidHeight-300;videowidth=Math.floor((vidHeight*4)/3);$('.iframe-video-overlay').css('height',vidHeight+'px');$('.iframe-video-overlay').css('width',videowidth+'px');}}
 setInterval(youTubeResize,100);$('.opens-video').click(function(){$(".iframe-video-overlay").append("<div id='iPlayerDesk' class='iPlayerDesk'></div>");onYouTubePlayerAPIReady();});
+}(jQuery));

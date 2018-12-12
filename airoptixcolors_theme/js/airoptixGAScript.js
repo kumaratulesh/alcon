@@ -1,3 +1,4 @@
+(function($) {
 var isVignetteLoaded=false;$(document).ready(function(){$('[rel="external"]').click(function(){var pageName=ga_getExternalLinkName($(this).attr("href"));ga_trackPage(pageName);return true;});$('input.lifeStyleEle').click(function(){if($(this).is(':checked')){var elstr=$(this).attr("id")
 var elstr2=elstr.replace(/lse_/,"");var elid=parseInt(elstr2);if(elid<=30)
 ga_trackEvent("AO_Website_Homepage_Interaction","Video_Lifestyle_Statements",lifeStyleElementsGA[elid-1]);else if(elid>=31&&elid<=33)
@@ -12,3 +13,4 @@ function ga_getExternalLinkName(url)
 {var str=url;str=str.replace(/http:\/\//i,"");str=str.replace(/www\./i,"");str="External_URL_"+str;return str;}
 function ga_pageTracker(url)
 {var pageName=ga_getExternalLinkName(url);ga_trackPage(pageName);}
+}(jQuery));

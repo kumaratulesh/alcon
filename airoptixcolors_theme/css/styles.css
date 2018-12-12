@@ -505,7 +505,7 @@
 	.about .wearing-contactlenses-column a{color:#c69947}
 	.about .wearing-contactlenses-column{float:left;padding-bottom:10px;padding-right:30px;padding-left:5px;width:25%;}
 	.about .wearing-contactlenses-column h2{font-size:26px;letter-spacing:2px;}
-	.about .wearing-contactlenses-column h2 .content{color:#000;padding-bottom:18px;text-shadow:none;width:175px;font-family:FuturaMedium; padding-top:2px !important; float:left; width: auto; margin-left:0 !important; }
+	.about .wearing-contactlenses-column h2 .content{color:#000;padding-bottom:18px;text-shadow:none;width:175px;font-family:FuturaMedium; padding-top:2px !important; float:left; width: auto !important; margin-left:0 !important; }
 	.about .wearing-contactlenses-column ul{list-style:disc;margin-left:1.5em;}
 	.about .wearing-contactlenses-column ul li{margin-bottom:1em;}
 	.about .wearing-contactlenses-column h2 .numaric{color:#000;float:left;font-size:75px;list-style:decimal inside none;font-family:FloodStd;padding-right:7px;position:relative;top:15px;}

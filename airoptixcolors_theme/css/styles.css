@@ -197,7 +197,8 @@
 	.header .container #block-airoptixcolors-theme-branding .menu-btn{display:none}
 	.header .container nav{padding-left:190px;margin:0 auto}
 	.header .container nav ul{margin:0;margin-left:57px}
-	.header .container nav ul li{float:left;height:64px;line-height:64px;line-height:normal;font-weight:700;text-align:center;position:relative}
+	.header .container nav ul li{float:left;height:64px;line-height:64px;line-height:normal;font-weight:700;text-align:center;position:relative;     width: 18%;
+   text-align: center;; font-size: 15px;}
 	.header .container nav ul li.mobi-item{display:none}
 	.header .container nav ul li.lastchild{border-right:0;padding-right:0}
 	.header .container nav ul li a{display:block;float:left;color:#fff;text-decoration:none;margin:10px 7px 0;padding-top:3px;font-weight:400;position:relative}
@@ -887,4 +888,8 @@ Mobile & Tablet Design
  }
 @media screen and (min-width : 601px) and (max-width : 767px)  
 {
+}
+
+.tr_right {
+    text-align: right;
 }

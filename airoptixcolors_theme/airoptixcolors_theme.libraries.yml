@@ -14,3 +14,8 @@ global-styling:
     js/main.js: {}    
     js/module.js: {}
     js/airoptixGAScript.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - core/drupal.debounce

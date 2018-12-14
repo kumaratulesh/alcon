@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
-@font-face {
+@font-face {	
     font-family: 'QuicksandLightOblique';
     src: url('fonts/Quicksand_Light_Oblique-webfont.eot');
     src: url('fonts/Quicksand_Light_Oblique-webfont.eot?#iefix') format('embedded-opentype'),
@@ -242,7 +242,7 @@
 
 	/* # pages ================================================================== */
 	.main-wrap {position: relative; /* don't change this */width: 100%;color: #000;z-index: 1000;}
-	.page{width: 1000px;position: relative;padding-bottom: 20px;margin-top:100px;margin-left:auto;margin-right:auto;}
+	.page{width: 1000px;position: relative;padding-bottom: 20px;margin-top:40px;margin-left:auto;margin-right:auto;}
 	.page .page-wrap{width: 940px;position: relative;z-index: 999;margin:0 auto;}
 	.page .page-marker {position: absolute;top: 50%;left: 0;width: 100%;height: 1px;}
 	.scroll-more{display: block;width: 100px;position: absolute;bottom: 140px;left: 50%;margin-left: -50px;z-index: 9998;}

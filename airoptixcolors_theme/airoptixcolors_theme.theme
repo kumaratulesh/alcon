@@ -143,3 +143,7 @@ function airoptixcolors_theme_theme_suggestions_details_alter(array &$suggestion
 function airoptixcolors_theme_preprocess_menu_local_task(array &$variables) {
   //$variables['element']['#link']['url']->setOption('attributes', ['class'=>'rounded']);
 }
+
+function airoptixcolors_theme_form_search_block_form_alter(&$form, FormStateInterface $form_state) {
+  $form['keys']['#attributes']['title'] = t('Search');
+}
